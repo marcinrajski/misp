@@ -1,0 +1,9 @@
+\* Okna_warianty *\
+Maximize
+Maksymalny_Zysk: 3000 Partie_okien_aluminiowych
+ + 5000 Partie_okien_drewnianych
+Subject To
+Fabryka_1: Partie_okien_aluminiowych <= 4
+Fabryka_2: 2 Partie_okien_drewnianych <= 12
+Fabryka_3: 3 Partie_okien_aluminiowych + 2 Partie_okien_drewnianych <= 18
+End
